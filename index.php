@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Miss Big Bold Beautiful</title>
+    <title>Website Title</title>
 
     <link rel="stylesheet" 
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
@@ -216,14 +216,14 @@
                 <div class="contacts">
                   <div class="row">
                   <span class="col-md-4"> <br>
-                  <a href=""><img src="./img/phone-logo.png" alt=""> +234-706-043-9131</a>
+                  <a href=""><img src="./img/phone-logo.png" alt=""> +0-000-000-000</a>
                   </span> <br> <br> <br>
                   <span class="col-md-4"> <br>
-                  <a href="mailto:mbbbpageant@gmail.com"><img src="./img/email-logo.png" alt=""> mbbbpageant@gmail.com </a>
+                  <a href="mailto:mbbbpageant@gmail.com"><img src="./img/email-logo.png" alt=""> email@gmail.com </a>
                   </span> <br> <br>
                   <span class="col-md-4"> <br>
-                  <a href="https://api.whatsapp.com/send?phone=+2347060439131"><img src="./img/whatsapp-logo.png" alt="">
-                    <a href="https://api.whatsapp.com/send?phone=+2347060439131"> Click to send a message</a></a>
+                  <a href="https://api.whatsapp.com/send?phone=+00000000000"><img src="./img/whatsapp-logo.png" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+00000000000"> Click to send a message</a></a>
                   </span>
                 </div>
                 </div> <br> <br>
@@ -231,10 +231,10 @@
               <div class="social text-center">
                 <div class="row">
                   <span class="col-md-4"> <br>
-                <a href="https://www.instagram.com/missbigboldbeautiful"><img src="./img/instagram-logo.png" alt=""></a>
+                <a href="https://www.instagram.com"><img src="./img/instagram-logo.png" alt=""></a>
                   </span> <br> <br>
                   <span class="col-md-4"> <br>
-                <a href="https://www.facebook.com/missbigboldbeautiful"><img src="./img/facebook-logo.png" alt=""></a>
+                <a href="https://www.facebook.com"><img src="./img/facebook-logo.png" alt=""></a>
                   </span> <br> <br>
                 <span class="col-md-4"> <br>
                 <a href="https://www.twitter.com"><img src="./img/twitter-logo.png" alt=""></a>
@@ -251,7 +251,7 @@
                              <!-- <a href="../vote">VOTE</a> <br> -->
                               <a href="../index.html#contact">CONTACT</a>
                         </div>
-              <p class="col-md-4"> <br> Copyright © <script> document.write(new Date().getFullYear());</script> MISS BIG BOLD BEAUTIFUL. All rights reserved.</p>
+              <p class="col-md-4"> <br> Copyright © <script> document.write(new Date().getFullYear());</script> Brand. All rights reserved.</p>
               <button onclick="topFunction()" id="top-btn" title="Go to top"><img src="./img/arrow2.png" alt=""></button>
               
               </div>
