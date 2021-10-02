@@ -16,7 +16,7 @@ if (!empty($fullname) || !empty($age) ||
     $host = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
-    $dbname = "mbbb";
+    $dbname = "";
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -44,7 +44,7 @@ if (!empty($fullname) || !empty($age) ||
 
         $stmt->execute();
         echo '<script type="text/javascript">
-                alert("CONGRATULATIONS ON YOUR SUCCESSFUL REGISTRATION! We will reach out via Whatsapp soonest.");
+                alert("CONGRATULATIONS ON YOUR SUCCESSFUL REGISTRATION!");
                 location.href = "./";
               </script>';
     } else {
