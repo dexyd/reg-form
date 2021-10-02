@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/b22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Bootstrap Navbar slide*/
+
+.carousel-item
+{
+    height: 100vh;
+    min-height: 380px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption
+{
+    bottom: 150px;
+}
+
+.carousel-caption h1
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.navbar-nav a
+{
+    font-size: 15px;
+    
+}
+
+.navbar-nav
+{
+    text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: whitesmoke !important;
+}
+
+.w-100
+{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .navbar-nav.ml.auto
+    {
+        background: rgba(0, 0, 0, 0.5)
+    }
+    .navbar-toggler
+    {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+/*Navbar*/
+
+#nav-bar
+{
+    top: 0;
+    z-index: 10;
+}
+
+.nav-item a
+{
+    color: #fff !important;
+}
+
+#nav-bar a:hover
+{
+    color: #d0a248 !important;
+}
+  
+.navbar-brand img
+{
+    height: 60px;
+    width: 60px;
+    margin: -20px 0px;
+}
+
+.fa-bars
+{
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*Slides*/
+
+.slides
+{
+    display: none;
+}
+
+img
+{
+    vertical-align: middle;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Slideshow container */
+
+.slideshow
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text
+{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+  /* The dots/bullets/indicators */
+.dot 
+{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Fading animation */
+  .fade 
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade
+  {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade
+  {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+
+  @media only screen and (max-width: 300px)
+  {
+    .text {font-size: 10px}
+  }
+
+.registers
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.register-p
+{
+    font-weight: bold;
+    color: #000 !important;
+}
+
+button
+{
+    outline: none;
+}
+
+button:hover
+{
+    outline: none;
+}
+
+.register-btn
+{
+    font-family: monospace;
+    border-radius: 20px 20px 20px 20px;
+    width: 80px;
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #fff;
+}
+
+.register-btn:hover
+{
+    background-color: #696969 !important;
+}
+
+.about
+{
+    text-align: center;
+}
+
+#terms
+{
+    text-align: center;
+}
+
+/*****Contact*****/
+
+.contact
+{
+    text-align: center;
+    margin: 20px;
+    font-family: monospace;
+}
+
+.cform
+{
+    margin: 20px;
+    font-family: monospace;
+    width: 70%;
+    height: 40px;
+}
+
+.msg
+{
+    margin: 20px;
+    font-family: monospace;
+    width: 70%;
+    height: 70px;
+}
+
+.submit-btn
+{
+    background-color: #000;
+    font-family: monospace;
+    color: #fff;
+    width: 60px;
+    border-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.submit-btn:hover
+{
+    background-color: #696969;
+}
+
+.contacts img
+{
+    height: 30px;
+    width: 30px;
+    transition: .5s;
+}
+
+.contacts a:hover img
+{
+    transform: translateY(-10px);
+}
+
+.col-md-4 a
+{
+    text-decoration: none;
+    color: #000;
+    font-family: serif;
+}
+.col-md-4 a:hover
+{
+    color: #d0a248;
+}
+
+/*****Footer*****/
+
+.social img
+{
+    height: 30px;
+    width: 30px;
+    transition: .5s;
+}
+
+.social a:hover img
+{
+    transform: translateY(-10px);
+}
+
+.copyright
+{
+    background-color: #696969;
+    font-size: 12px;
+    text-align: center;
+}
+
+.copyright a:hover
+{
+    color: whitesmoke;
+}
+
+#top-btn
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 0px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
